@@ -1,7 +1,32 @@
 @import "tailwindcss";
 @utility container {
   margin-inline: auto;
-  padding-inline: 2rem;
+  padding-inline: 5rem;
+  padding-top: 1rem;
+}
+
+@utility strycontainer {
+  margin-inline: auto;
+  padding: 5rem;
+  padding-inline: 15rem;
+}
+
+@theme {
+  --color-bg: #F5F5F5;
+  --color-primary: #0A3981;
+  --color-secondary: #1F509A;
+  --color-accent: #D8C4B6;
+  --color-grey: #70706E;
+  --color-dark: #000000;
+  --color-light: #FFFFFF;
+  --color-offer-navbar-onlight-bg: #ECEFF1;
+  --color-ad-navbar-onlight-bg: #186b9e;
+  --font-adfont: "Josefin Sans", "serif";
+  --font-roboto: "Roboto", "serif";
+  --font-heading: "Rubik","sans";
+  --font-display: "Monomakh", "sans-serif";
+  --font-logo: "Sigmar", "Serif";
+  --font-mont:"Montserrat", "serif"
 }
 
 body {
