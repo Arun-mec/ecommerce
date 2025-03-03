@@ -6,17 +6,24 @@ import CategoryBanner from '../components/Banner/CategoryBanner'
 import InterestCard from '../components/Card/InterestCard'
 import StoryBanner from '../components/Banner/StoryBanner'
 import SubCarousel from '../components/Carousel/SubCarousel'
+import ContCardCarousel from '../components/Carousel/ContCardCarousel'
+import AdCarousel from '../components/Carousel/AdCarousel'
+
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className=''>
         <Header />
         <Banner />
-        <Carousel />
-        <StoryBanner />
-        <CategoryBanner />
-        <InterestCard />
-        <SubCarousel />
+        <section className='flex flex-col gap-4'>
+          <Carousel />
+          <AdCarousel />
+          <ContCardCarousel />
+          <StoryBanner />
+          <CategoryBanner />
+          <InterestCard />
+          <SubCarousel />
+        </section>
     </div>
   )
 }

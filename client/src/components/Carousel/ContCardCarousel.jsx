@@ -1,12 +1,12 @@
-import React from "react";
-import SectionTitle from "./SectionTitle";
-import ImgCard from "../Card/ImgCard";
-import imgFiles from "../Card/imgFiles";
+import React from 'react'
+import SectionTitle from './SectionTitle';
+import imgFiles from '../Card/imgFiles';
+import ContentCard from '../Card/ContentCard';
 
-const SubCarousel = () => {
+const ContCardCarousel = () => {
   return (
     <div className="container flex flex-col gap-3">
-      <SectionTitle content="SELECT YOUR SPORT, FIND YOUR GEAR, AND GET IN THE GAME!" />
+      <SectionTitle content="WHAT'S HOT!" />
       <div
         className="overflow-x-auto flex items-center 
         [&::-webkit-scrollbar]:h-[0.2rem]
@@ -20,7 +20,7 @@ const SubCarousel = () => {
             imgFiles.map((imgFile)=>{
     
                 return  (
-                    <ImgCard image={imgFile.image} content={imgFile.content} />
+                    <ContentCard image={imgFile.image} content={imgFile.content} />
                 )
             })
           }
@@ -28,7 +28,7 @@ const SubCarousel = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SubCarousel;
+export default ContCardCarousel;

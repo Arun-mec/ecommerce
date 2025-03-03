@@ -9,12 +9,12 @@ const Button = ({
     disabled = false,
     className
 }) => {
-    const buttonClass = `w-fit p-4 px-8 font-adfont font-semibold text-sm hover:cursor-pointer 
+    const buttonClass = `w-fit p-3 px-8 font-adfont font-semibold text-sm hover:cursor-pointer 
     relative bottom-1 right-1 flex items-center gap-2
     ${varient} ${disabled ? 'disabled':''} ${className}`;
     
   return (
-    <div className='relative border-[0.1rem] max-w-fit'>
+    <div className='relative border-[0.1rem] max-w-fit hover:border-gray-400'>
       <button  
           className={buttonClass}
           type={type}

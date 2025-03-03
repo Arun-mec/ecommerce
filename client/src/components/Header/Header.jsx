@@ -19,7 +19,7 @@ const Header = () => {
     //     <Navbar />
     //     <Banner />
     // </div>
-    <div className=''>
+    <div className='flex flex-col gap-0'>
       <OfferNavbar content={allofferNavbarContent} className={allofferNavbarClass} tag={allOfferNavbarTag} />
       <SupportNavbar contents={supportNavbarContents} className={supportNavbarClass}/>
       <Navbar/>

@@ -1,38 +1,36 @@
 const imgFiles = [
     {
-        image : './images/cricket.jpg',
-        content : 'CRICKET'
-    },
-    {
-        image : './images/cricket.jpg',
-        content : 'CRICKET'
-    },
-    {
-        image : './images/cricket.jpg',
-        content : 'CRICKET'
-    },
-    {
-        image : './images/cricket.jpg',
-        content : 'CRICKET'
-    },
-    {
-        image : './images/cricket.jpg',
-        content : 'CRICKET'
-    },
-    {
-        image : './images/football.jpg',
+        image : './src/images/football.jpg',
         content : 'FOOTBALL'
     },
     {
-        image : './images/running.jpg',
+        image : './src/images/cricket.jpg',
+        content : 'CRICKET'
+    },
+    {
+        image : './src/images/running.jpg',
         content : 'RUNNING'
     },
     {
-        image : './images/swimming.jpg',
+        image : './src/images/swimming.jpg',
         content : 'SWIMMING'
     },
-    
-
+    {
+        image : './src/images/motosport.png',
+        content : 'MOTOSPORT'
+    },
+    {
+        image : './src/images/tennis.jpg',
+        content : 'TENNIS'
+    },
+    {
+        image : './src/images/basketball.jpg',
+        content : 'BASKETBALL'
+    },
+    {
+        image : './src/images/golf.jpg',
+        content : 'GOLF'
+    }
 ]
 
 
